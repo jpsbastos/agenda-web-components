@@ -41,7 +41,7 @@ template.innerHTML = `
             <label for="message">Message:</label>
             <textarea rows="5" id="message" class="form-control" placeholder="Type a message ..." required></textarea>
         </div>
-        <button id="submitBtn" type="submit">Enviar!</button>
+        <button id="submitBtn" type="submit">Send!</button>
     </form>
     </div>
 `
