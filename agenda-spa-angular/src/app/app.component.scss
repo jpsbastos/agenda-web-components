@@ -1,0 +1,20 @@
+@import 'variables';
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+}
+
+@media (min-width: $large-screen) {
+  .page-container {
+    flex-direction: row;
+  }
+
+  .content {
+    margin: 30px;
+  }
+}

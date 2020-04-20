@@ -1,0 +1,111 @@
+@import 'variables';
+
+.app-navbar {
+  background: #989fa5;
+  height: $header-height;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hamburguer-btn {
+  cursor: pointer;
+  float: right;
+  order: 1;
+}
+
+#check {
+  display: none;
+}
+
+
+.navbar-list {
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+
+
+  a {
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+    &:active,
+    &:hover {
+      background: #cbd5dd;
+      transition: .5s;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: $large-screen) {
+  .logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  .navbar-list {
+    position: fixed;
+    width: 50%;
+    margin: 0;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    transition: all .5s;
+
+    a {
+      font-size: 20px;
+
+      &:active,
+      &:hover {
+        background: none;
+        color: #5f6468;
+      }
+    }
+
+    li {
+      display: block;
+      margin: 20px 0;
+    }
+  }
+
+  #hamburguer-btn {
+    display: block;
+  }
+
+  #check:checked~ul {
+    right: 0;
+  }
+}
+
+@media (min-width: $large-screen) {
+  #hamburguer-btn {
+    display: none;
+  }
+
+  .icon {
+    font-size: 35px;
+    padding: 0 100px;
+  }
+
+}

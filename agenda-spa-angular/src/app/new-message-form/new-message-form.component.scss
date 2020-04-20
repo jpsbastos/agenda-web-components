@@ -1,0 +1,12 @@
+@import 'variables';
+
+.email-container {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+@media (min-width: $large-screen) {
+  .email-container {
+    padding: 0 60px;
+  }
+}

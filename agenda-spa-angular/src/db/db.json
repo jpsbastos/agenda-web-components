@@ -1,0 +1,162 @@
+[
+    {
+        "name": "António Costa",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "contactInfo": {
+            "email": "pm@gov.pt",
+            "phone": "+351 91 000 00 01"
+        }
+    },
+    {
+        "name": "Graça Freitas",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+        "contactInfo": {
+            "email": "dgs@gov.pt",
+            "phone": "+351 91 000 00 02"
+        }
+    },
+    {
+        "name": "Mário Centeno",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "contactInfo": {
+            "email": "mario.centeno@gov.pt",
+            "phone": "+351 91 000 00 03"
+        }
+    },
+    {
+        "name": "Cristina Ferreira",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+        "contactInfo": {
+            "email": "cristina.ferreira@sic.pt",
+            "phone": "+351 91 000 00 04"
+        }
+    },
+    {
+        "name": "António Lacerda",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "contactInfo": {
+            "email": "antonio.lacerda@gov.pt",
+            "phone": "+351 91 000 00 05"
+        }
+    },
+    {
+        "name": "Marta Temido",
+        "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+        "contactInfo": {
+            "email": "marta.temido@gov.pt",
+            "phone": "+351 91 000 00 06"
+        }
+    },
+    {
+        "name": "Tiago Brandão Rodrigues",
+        "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+        "contactInfo": {
+            "email": "tiago.b.rodrigues@gov.pt",
+            "phone": "+351 91 000 00 07"
+        }
+    },
+    {
+        "name": "Isabel Moreira",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+        "contactInfo": {
+            "email": "isabel.moreira@ar.pt",
+            "phone": "+351 91 000 00 08"
+        }
+    },
+    {
+        "name": "Rui Rio",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+        "contactInfo": {
+            "email": "rui.rio@ar.pt",
+            "phone": "+351 91 000 00 09"
+        }
+    },
+    {
+        "name": "Catarina Martins",
+        "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+        "contactInfo": {
+            "email": "catarina.martins@ar.pt",
+            "phone": "+351 91 000 00 10"
+        }
+    },
+    {
+        "name": "Jerónimo de Sousa",
+        "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+        "contactInfo": {
+            "email": "jeronimo.sousa@ar.pt",
+            "phone": "+351 91 000 00 11"
+        }
+    },
+    {
+        "name": "Assunção Cristas",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+        "contactInfo": {
+            "email": "assuncao.cristas@ar.pt",
+            "phone": "+351 91 000 00 12"
+        }
+    },
+    {
+        "name": "João Almeida",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+        "contactInfo": {
+            "email": "joao.almeida@ar.pt",
+            "phone": "+351 91 000 00 13"
+        }
+    },
+    {
+        "name": "Marisa Matias",
+        "avatar": "https://randomuser.me/api/portraits/women/7.jpg",
+        "contactInfo": {
+            "email": "marisa.matias@ep.eu",
+            "phone": "+351 91 000 00 14"
+        }
+    },
+    {
+        "name": "Nuno Melo",
+        "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+        "contactInfo": {
+            "email": "nuno.melo@ep.eu",
+            "phone": "+351 91 000 00 15"
+        }
+    },
+    {
+        "name": "Ana Gomes",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+        "contactInfo": {
+            "email": "ana.gomes@ep.eu",
+            "phone": "+351 91 000 00 16"
+        }
+    },
+    {
+        "name": "Paulo Rangel",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+        "contactInfo": {
+            "email": "paulo.rangel@ep.eu",
+            "phone": "+351 91 000 00 17"
+        }
+    },
+    {
+        "name": "Margarida Belém",
+        "avatar": "https://randomuser.me/api/portraits/women/9.jpg",
+        "contactInfo": {
+            "email": "presidente@cm-arouca.pt",
+            "phone": "+351 91 000 00 18"
+        }
+    },
+    {
+        "name": "Marcelo Rebelo de Sousa",
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "contactInfo": {
+            "email": "presidente@presidencia.pt",
+            "phone": "+351 91 000 00 19"
+        }
+    },
+    {
+        "name": "Manuela Ferreira Leite",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+        "contactInfo": {
+            "email": "manuela.ferreira.leite@gmail.com",
+            "phone": "+351 91 000 00 20"
+        }
+    }
+]

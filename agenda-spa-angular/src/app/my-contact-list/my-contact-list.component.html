@@ -1,0 +1,17 @@
+<div class="contact-container">
+  <h3>My Contact List</h3>
+  <div class="contact-list">
+    <ng-container *ngFor="let contact of contactList, let i = index">
+      <user-card
+        [id]="i"
+        [name]="contact.name"
+        [avatar]="contact.avatar"
+        [nameClicked]="onNameClicked"
+        [deleteClicked]="onDeleteContact"
+        (click)="onClickContact($event, i)">
+        <div slot="email">{{contact.contactInfo.email}}</div>
+        <div slot="phone">{{contact.contactInfo.phone}}</div>
+      </user-card>
+    </ng-container>
+  </div>
+</div>

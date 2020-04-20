@@ -1,0 +1,4 @@
+<div class="email-container" *ngIf="selectedContact">
+  <h1><i class="far fa-paper-plane"></i> | New Email</h1>
+  <email-form [email]="selectedContact.contactInfo.email" [submitted]="onSubmit"></email-form>
+</div>
