@@ -49,7 +49,6 @@ template.innerHTML = `
 export class EmailForm extends HTMLElement {
     constructor() {
         super();
-        this.showInfo = false;
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
