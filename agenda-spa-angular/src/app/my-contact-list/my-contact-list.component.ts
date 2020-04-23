@@ -35,9 +35,7 @@ export class MyContactListComponent implements OnInit, OnDestroy {
     this.myContactListService.deleteContact(position);
   }
 
-  onClickContact(event: Event, position: number): void {
+  onClickContact(position: number): void {
     this.myContactListService.selectContact(position);
   }
-
-
 }

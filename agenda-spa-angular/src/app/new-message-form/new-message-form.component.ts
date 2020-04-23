@@ -1,8 +1,7 @@
-import {Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
 import {NewMessageService} from './new-message.service';
 import {Contact} from '../models/contact.model';
-import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-new-message-form',
@@ -12,7 +11,6 @@ import {NgForm} from '@angular/forms';
 export class NewMessageFormComponent implements OnInit, OnDestroy {
   subscription: Subscription;
   selectedContact: Contact;
-  @ViewChild('f') messageForm: NgForm;
 
 
   constructor(private newMessageService: NewMessageService) {

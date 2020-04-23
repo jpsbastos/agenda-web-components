@@ -3,7 +3,7 @@ import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {NavbarComponent} from './shared/navbar/navbar.component';
-import 'b-library/main';
+import 'web-components-library/main';
 import { MyContactListComponent } from './my-contact-list/my-contact-list.component'
 import {HttpClientModule} from '@angular/common/http';
 import { NewMessageFormComponent } from './new-message-form/new-message-form.component';
